@@ -1,0 +1,21 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+
+anonymous.rosado-bulletin.list.label.moment = Moment
+anonymous.rosado-bulletin.list.label.text = Text
+anonymous.rosado-bulletin.list.label.author = Author
+
+anonymous.rosado-bulletin.form.button.create = Create
+anonymous.rosado-bulletin.form.button.return = Return
+
+anonymous.rosado-bulletin.form.label.moment = Moment
+anonymous.rosado-bulletin.form.label.text = Text
+anonymous.rosado-bulletin.form.label.author = Author
