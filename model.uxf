@@ -312,4 +312,136 @@ RosadoBulletin
 +text: String {NotBlank}</panel_attributes>
     <additional_attributes/>
   </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>7</x>
+      <y>378</y>
+      <w>231</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Notice
+--
++creationDate: Date{Temporal(TIMESTAMP), Past}
++deadline: Date{Temporal(TIMESTAMP), Past}
++header: String {URL}
++title: String {NotBlank}
++links: List&lt;String&gt;
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>273</x>
+      <y>378</y>
+      <w>231</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Inquiry
+--
++creationDate: Date{Temporal(TIMESTAMP), Past}
++deadline: Date{Temporal(TIMESTAMP)}
++description: String
++title: String {NotBlank}
++contactEmail: String{Email}
++minMoney: Money
++maxMoney: Money
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>525</x>
+      <y>378</y>
+      <w>231</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Overture
+--
++creationDate: Date{Temporal(TIMESTAMP), Past}
++deadline: Date{Temporal(TIMESTAMP)}
++description: String
++title: String {NotBlank}
++contactEmail: String{Email}
++minMoney: Money
++maxMoney: Money
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>763</x>
+      <y>378</y>
+      <w>231</w>
+      <h>154</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Technology Records
+--
++description: String
++title: String {NotBlank}
++sector: ActivitySector
++inventor: String {NotBlank}
++contactEmail: String{Email}
++website: String{URL}
++minMoney: Money
++maxMoney: Money
++openSource: Boolean
++stars: Integer {Optional, Range(-5,5)}
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>728</x>
+      <y>553</y>
+      <w>231</w>
+      <h>154</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Tool Records
+--
++description: String
++title: String {NotBlank}
++sector: ActivitySector
++inventor: String {NotBlank}
++contactEmail: String{Email}
++website: String{URL}
++minMoney: Money
++maxMoney: Money
++openSource: Boolean
++stars: Integer {Optional, Range(-5,5)}
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>329</x>
+      <y>539</y>
+      <w>231</w>
+      <h>154</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Challenge
+--
++creationDate: Date{Temporal(TIMESTAMP), Past}
++deadline: Date{Temporal(TIMESTAMP), Futur (1 month)}
++description: String
++title: String {NotBlank}
++rookieGoal: String {NotBlank}
++averageGoal: String {NotBlank}
++expertGoal: String {NotBlank}
++rookieReward: Money
++averageReward: Money
++expertReward: Money</panel_attributes>
+    <additional_attributes/>
+  </element>
 </diagram>

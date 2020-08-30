@@ -25,6 +25,7 @@ master.menu.home = Home
 master.menu.sign-up = Sign up
 master.menu.sign-in = Sign in
 master.menu.sign-out = Sign out
+master.menu.authenticated = Authenticated
 
 # master.menu.anonymous #######################################################
 
@@ -32,6 +33,12 @@ master.menu.anonymous = Anonymous
 master.menu.anonymous.favourite-link = Favourite link (Antonio Rosado)
 master.menu.anonymous.rosado-bulletin.list = RosadoBulletins List
 master.menu.anonymous.rosado-bulletin.create = Create RosadoBulletin
+master.menu.notice.list = Notices
+master.menu.challenge.list = Challenges
+master.menu.inquiry.list = Inquiries
+master.menu.overture.list = Overtures
+master.menu.tool-record.list = Tool Records
+master.menu.technology-record.list = Technology Records
 
 # master.menu.administrator ###################################################
 

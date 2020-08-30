@@ -33,5 +33,196 @@
  		<property name="text" value="This is yet another bulletin"/>
  		<property name="moment" value="2019/09/08 10:15"/>
 	</bean>
+	
+	<!-- Inquiries -->
+	<bean id="Inquiry01" class="acme.entities.inquiries.Inquiry">
+ 		<property name="title" value="A title"/>
+ 		<property name="description" value="a description"/>
+ 		<property name="contactEmail" value="antrosbar.profesional@gmail.com"/>
+ 		<property name="creationDate" value="2019/09/09 10:15"/>
+ 		<property name="deadline" value="2021/09/09 10:15"/>
+ 		<property name="minMoney" value="1000.0 €"/>
+ 		<property name="maxMoney" value="2000.0 €"/>
+	</bean>
+	
+	<bean id="Inquiry02" class="acme.entities.inquiries.Inquiry">
+ 		<property name="title" value="Another title"/>
+ 		<property name="description" value="another description"/>
+ 		<property name="contactEmail" value="antrosbar.talycual@gmail.com"/>
+ 		<property name="creationDate" value="2019/08/09 10:15"/>
+ 		<property name="deadline" value="2021/08/09 10:15"/>
+ 		<property name="minMoney" value="2000.0 €"/>
+ 		<property name="maxMoney" value="3000.0 €"/>
+	</bean>
+	
+	<bean id="Inquiry03" class="acme.entities.inquiries.Inquiry">
+ 		<property name="title" value="And Another title"/>
+ 		<property name="description" value=" yet another description"/>
+ 		<property name="contactEmail" value="pepito.talycual@msn.com"/>
+ 		<property name="creationDate" value="2019/07/09 10:15"/>
+ 		<property name="deadline" value="2021/07/09 10:15"/>
+ 		<property name="minMoney" value="3000.0 €"/>
+ 		<property name="maxMoney" value="4000.0 €"/>
+	</bean>
+	
+	<bean id="notice01" class="acme.entities.notices.Notice">
+ 		<property name="title" value="And Another title"/>
+ 		<property name="header" value="https://ninjafishgame.files.wordpress.com/2015/05/cool-twitter-header.jpg"/>
+ 		<property name="links" value="https://youtube.com/"/>
+ 		<property name="creationDate" value="2019/07/09 10:15"/>
+ 		<property name="deadline" value="2021/07/09 10:15"/>
+	</bean>
+	
+	<bean id="notice02" class="acme.entities.notices.Notice">
+ 		<property name="title" value="One more title?"/>
+ 		<property name="header" value="https://ninjafishgame.files.wordpress.com/2015/05/cool-twitter-header.jpg"/>
+ 		<property name="links" value="https://twitter.com/"/>
+ 		<property name="creationDate" value="2019/07/09 10:15"/>
+ 		<property name="deadline" value="2021/07/09 10:15"/>
+	</bean>
+	
+	<bean id="notice03" class="acme.entities.notices.Notice">
+ 		<property name="title" value="The Title"/>
+ 		<property name="header" value="https://ninjafishgame.files.wordpress.com/2015/05/cool-twitter-header.jpg"/>
+ 		<property name="links" value="https://google.com/"/>
+ 		<property name="creationDate" value="2019/07/09 10:15"/>
+ 		<property name="deadline" value="2021/07/09 10:15"/>
+	</bean>
+	
+	<bean id="Overture01" class="acme.entities.overtures.Overture">
+ 		<property name="title" value="Overture 1"/>
+ 		<property name="description" value=" This is Overture 1"/>
+ 		<property name="contactEmail" value="pepito.talycual@msn.com"/>
+ 		<property name="creationDate" value="2019/07/09 10:15"/>
+ 		<property name="deadline" value="2021/07/09 10:15"/>
+ 		<property name="minMoney" value="3000.0 €"/>
+ 		<property name="maxMoney" value="4000.0 €"/>
+	</bean>
+	
+	<bean id="Overture02" class="acme.entities.overtures.Overture">
+ 		<property name="title" value="Overture 2"/>
+ 		<property name="description" value=" This is Overture 2"/>
+ 		<property name="contactEmail" value="antrosbar.profesional@gmail.com"/>
+ 		<property name="creationDate" value="2019/07/09 10:15"/>
+ 		<property name="deadline" value="2021/07/09 10:15"/>
+ 		<property name="minMoney" value="2000.0 €"/>
+ 		<property name="maxMoney" value="4000.0 €"/>
+	</bean>
+	
+	<bean id="Overture03" class="acme.entities.overtures.Overture">
+ 		<property name="title" value="Overture 3"/>
+ 		<property name="description" value=" This is Overture 3"/>
+ 		<property name="contactEmail" value="pepito.talycual@msn.com"/>
+ 		<property name="creationDate" value="2019/07/09 10:15"/>
+ 		<property name="deadline" value="2021/07/09 10:15"/>
+ 		<property name="minMoney" value="3000.0 €"/>
+ 		<property name="maxMoney" value="5000.0 €"/>
+	</bean>
+	
+	<bean id="Challenge 01" class="acme.entities.challenges.Challenge">
+ 		<property name="title" value="Challenge 1"/>
+ 		<property name="description" value=" This is Challenge 1"/>
+ 		<property name="creationDate" value="2019/07/09 10:15"/>
+ 		<property name="deadline" value="2021/07/09 10:15"/>
+ 		<property name="rookieGoal" value="Complete in 3 days"/>
+ 		<property name="rookieReward" value="1000.0 €"/>
+ 		<property name="averageGoal" value="Complete in 2 days"/>
+ 		<property name="averageReward" value="3000.0 €"/>
+ 		<property name="expertGoal" value="Complete in 1 day"/>
+ 		<property name="expertReward" value="5000.0 €"/>
+	</bean>
+	
+	<bean id="Challenge 02" class="acme.entities.challenges.Challenge">
+ 		<property name="title" value="Challenge 2"/>
+ 		<property name="description" value=" This is Challenge 2"/>
+ 		<property name="creationDate" value="2019/07/09 10:15"/>
+ 		<property name="deadline" value="2021/07/09 10:15"/>
+ 		<property name="rookieGoal" value="Complete in 3 days"/>
+ 		<property name="rookieReward" value="1000.0 €"/>
+ 		<property name="averageGoal" value="Complete in 2 days"/>
+ 		<property name="averageReward" value="3000.0 €"/>
+ 		<property name="expertGoal" value="Complete in 1 day"/>
+ 		<property name="expertReward" value="5000.0 €"/>
+	</bean>
+	
+	<bean id="Challenge 03" class="acme.entities.challenges.Challenge">
+ 		<property name="title" value="Challenge 3"/>
+ 		<property name="description" value=" This is Challenge 3"/>
+ 		<property name="creationDate" value="2019/07/09 10:15"/>
+ 		<property name="deadline" value="2021/07/09 10:15"/>
+ 		<property name="rookieGoal" value="Complete in 3 days"/>
+ 		<property name="rookieReward" value="1000.0 €"/>
+ 		<property name="averageGoal" value="Complete in 2 days"/>
+ 		<property name="averageReward" value="3000.0 €"/>
+ 		<property name="expertGoal" value="Complete in 1 day"/>
+ 		<property name="expertReward" value="5000.0 €"/>
+	</bean>
+	
+	
+	<bean id="ToolRecord01" class="acme.entities.toolRecords.ToolRecord">
+ 		<property name="title" value="A tool"/>
+ 		<property name="description" value=" Thi is a tool"/>
+ 		<property name="inventor" value=" Nikola Tesla"/>
+ 		<property name="activitySector" value="Electricity"/>
+ 		<property name="openSource" value="true"/>
+ 		<property name="website" value="https://www.google.com"/>
+ 		<property name="contactEmail" value="pepito.talycual@msn.com"/>
+ 		<property name="stars" value="2"/>
+	</bean>
+	
+	<bean id="ToolRecord02" class="acme.entities.toolRecords.ToolRecord">
+ 		<property name="title" value="A thing"/>
+ 		<property name="description" value=" This is a thing"/>
+ 		<property name="inventor" value=" Alber Einstein"/>
+ 		<property name="activitySector" value=" Science"/>
+ 		<property name="openSource" value="true"/>
+ 		<property name="website" value="https://www.google.com"/>
+ 		<property name="contactEmail" value="pepito.talycual@msn.com"/>
+ 		<property name="stars" value="3"/>
+	</bean>
+	
+	<bean id="ToolRecord03" class="acme.entities.toolRecords.ToolRecord">
+ 		<property name="title" value="Something"/>
+ 		<property name="description" value=" Whatever you want"/>
+ 		<property name="inventor" value=" Ramón y Cajal"/>
+ 		<property name="activitySector" value=" Medicine"/>
+ 		<property name="openSource" value="true"/>
+ 		<property name="website" value="https://www.google.com"/>
+ 		<property name="contactEmail" value="pepito.talycual@msn.com"/>
+ 		<property name="stars" value="4"/>
+	</bean>
+	
+	<bean id="TechnologyRecord01" class="acme.entities.technologyRecords.TechnologyRecord">
+ 		<property name="title" value="Some tech"/>
+ 		<property name="description" value="The tech you need"/>
+ 		<property name="inventor" value=" Nikola Tesla"/>
+ 		<property name="activitySector" value="Electricity"/>
+ 		<property name="openSource" value="true"/>
+ 		<property name="website" value="https://www.google.com"/>
+ 		<property name="contactEmail" value="pepito.talycual@msn.com"/>
+ 		<property name="stars" value="3"/>
+	</bean>
+	
+	<bean id="TechnologyRecord02" class="acme.entities.technologyRecords.TechnologyRecord">
+ 		<property name="title" value="More tech"/>
+ 		<property name="description" value=" The tech you don't need"/>
+ 		<property name="inventor" value=" Alber Einstein"/>
+ 		<property name="activitySector" value=" Science"/>
+ 		<property name="openSource" value="true"/>
+ 		<property name="website" value="https://www.google.com"/>
+ 		<property name="contactEmail" value="pepito.talycual@msn.com"/>
+ 		<property name="stars" value="3"/>
+	</bean>
+	
+	<bean id="TechnologyRecord03" class="acme.entities.technologyRecords.TechnologyRecord">
+ 		<property name="title" value="Even more tech"/>
+ 		<property name="description" value="The tech you may or may not need"/>
+ 		<property name="inventor" value=" Ramón y Cajal"/>
+ 		<property name="activitySector" value=" Medicine"/>
+ 		<property name="openSource" value="true"/>
+ 		<property name="website" value="https://www.google.com"/>
+ 		<property name="contactEmail" value="pepito.talycual@msn.com"/>
+ 		<property name="stars" value="4"/>
+	</bean>
 
 </beans>

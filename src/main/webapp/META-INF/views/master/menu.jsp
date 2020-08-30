@@ -22,10 +22,23 @@
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link" action="http://www.youtube.com/"/>
 			<acme:menu-suboption code="master.menu.anonymous.rosado-bulletin.list" action="/anonymous/rosado-bulletin/list"/>
 			<acme:menu-suboption code="master.menu.anonymous.rosado-bulletin.create" action="/anonymous/rosado-bulletin/create"/>
+			<acme:menu-suboption code="master.menu.techonology-record.list" action="/anonymous/technology-record/list"/>
+			<acme:menu-suboption code="master.menu.tool-record.list" action="/anonymous/tool-record/list"/>
+			<acme:menu-suboption code="master.menu.notice.list" action="/anonymous/notice/list"/>
 		</acme:menu-option>
 
+		<acme:menu-option code="master.menu.authenticated" access="isAuthenticated()">
+			<acme:menu-suboption code="master.menu.techonology-record.list" action="/authenticated/technology-record/list"/>
+			<acme:menu-suboption code="master.menu.tool-record.list" action="/authenticated/tool-record/list"/>
+			<acme:menu-suboption code="master.menu.notice.list" action="/authenticated/notice/list"/>
+			<acme:menu-suboption code="master.menu.inquiry.list" action="/authenticated/inquiry/list"/>
+			<acme:menu-suboption code="master.menu.overture.list" action="/authenticated/overture/list"/>
+			<acme:menu-suboption code="master.menu.challenge.list" action="/authenticated/challenge/list"/>
+		</acme:menu-option>
+		
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
 			<acme:menu-suboption code="master.menu.administrator.user-accounts" action="/administrator/user-account/list"/>
+			<acme:menu-suboption code="master.menu.notice.list" action="/administrator/notice/list"/>
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.administrator.shutdown" action="/master/shutdown"/>
 		</acme:menu-option>
