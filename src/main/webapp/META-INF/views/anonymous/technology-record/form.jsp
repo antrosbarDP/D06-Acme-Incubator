@@ -8,7 +8,7 @@
 	<acme:form-textbox code="anonymous.technology-record.form.label.inventor" path="inventor" />
 	<acme:form-textbox code="anonymous.technology-record.form.label.activitySector" path="activitySector" />
 	<acme:form-integer code="anonymous.technology-record.form.label.stars" path="stars" />
-	<acme:form-url code="anonymous.technology-record.form.label.contactEmail" path="contactEmail" />
+	<acme:form-textbox code="anonymous.technology-record.form.label.contactEmail" path="contactEmail" />
 	<acme:form-url code="anonymous.technology-record.form.label.website" path="website" />
 	<acme:form-checkbox code="anonymous.technology-record.form.label.openSource" path="openSource" />
 	<acme:form-textarea code="anonymous.technology-record.form.label.description" path="description" />

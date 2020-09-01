@@ -19,6 +19,7 @@ authenticated.notice.form.button.return = Volver
 
 authenticated.notice.form.label.deadline = Fecha Límite
 authenticated.notice.form.label.title = Título
+authenticated.notice.form.label.body = Cuerpo
 authenticated.notice.form.label.header = Cabecera
 authenticated.notice.form.label.creationDate = Fecha de Creación
 authenticated.notice.form.label.links = Enlace

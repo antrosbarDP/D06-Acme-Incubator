@@ -8,3 +8,6 @@
 	<acme:list-column code="administrator.notice.list.label.header" path="header" width="20%" />
 	<acme:list-column code="administrator.notice.list.label.deadline" path="deadline" width="60%" />
 </acme:list>
+
+
+<a href="<jstl:url value="/administrator/notice/create"/>"><h1 style="color:DodgerBlue;"><acme:message code="administrator.notice.form.button.create"/></h1></a>

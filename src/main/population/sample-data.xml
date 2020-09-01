@@ -67,6 +67,7 @@
 	
 	<bean id="notice01" class="acme.entities.notices.Notice">
  		<property name="title" value="And Another title"/>
+ 		<property name="body" value="The body"/>
  		<property name="header" value="https://ninjafishgame.files.wordpress.com/2015/05/cool-twitter-header.jpg"/>
  		<property name="links" value="https://youtube.com/"/>
  		<property name="creationDate" value="2019/07/09 10:15"/>
@@ -75,6 +76,7 @@
 	
 	<bean id="notice02" class="acme.entities.notices.Notice">
  		<property name="title" value="One more title?"/>
+ 		<property name="body" value="The body"/>
  		<property name="header" value="https://ninjafishgame.files.wordpress.com/2015/05/cool-twitter-header.jpg"/>
  		<property name="links" value="https://twitter.com/"/>
  		<property name="creationDate" value="2019/07/09 10:15"/>
@@ -83,6 +85,7 @@
 	
 	<bean id="notice03" class="acme.entities.notices.Notice">
  		<property name="title" value="The Title"/>
+ 		<property name="body" value="The body"/>
  		<property name="header" value="https://ninjafishgame.files.wordpress.com/2015/05/cool-twitter-header.jpg"/>
  		<property name="links" value="https://google.com/"/>
  		<property name="creationDate" value="2019/07/09 10:15"/>

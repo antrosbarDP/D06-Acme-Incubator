@@ -20,5 +20,7 @@ administrator.notice.form.button.return = Return
 administrator.notice.form.label.deadline = Deadline
 administrator.notice.form.label.title = Title
 administrator.notice.form.label.header = Header
+administrator.notice.form.label.body = Body
 administrator.notice.form.label.creationDate = CreationDate
 administrator.notice.form.label.links = Links
+administrator.notice.form.label.confirm = Confirm Creation

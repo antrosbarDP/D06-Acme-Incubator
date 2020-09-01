@@ -33,6 +33,9 @@ public class Notice extends DomainEntity {
 	@NotBlank
 	private String				title;
 
+	@NotBlank
+	private String				body;
+
 	private String				links;
 
 	@Temporal(TemporalType.TIMESTAMP)

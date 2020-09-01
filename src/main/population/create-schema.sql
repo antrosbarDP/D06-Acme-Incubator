@@ -66,6 +66,7 @@
     create table `notice` (
        `id` integer not null,
         `version` integer not null,
+        `body` varchar(255),
         `creation_date` datetime(6),
         `deadline` datetime(6),
         `header` varchar(255),

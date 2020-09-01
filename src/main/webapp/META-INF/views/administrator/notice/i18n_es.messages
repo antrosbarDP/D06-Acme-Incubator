@@ -20,5 +20,7 @@ administrator.notice.form.button.return = Volver
 administrator.notice.form.label.deadline = Fecha Límite
 administrator.notice.form.label.title = Título
 administrator.notice.form.label.header = Cabecera
+administrator.notice.form.label.body = Cuerpo
 administrator.notice.form.label.creationDate = Fecha de Creación
 administrator.notice.form.label.links = Enlace
+administrator.notice.form.label.confirm = Confirmar Creación

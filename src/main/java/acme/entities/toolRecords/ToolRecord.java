@@ -31,9 +31,11 @@ public class ToolRecord extends DomainEntity {
 	private String				activitySector;
 
 	@Email
+	@NotBlank
 	private String				contactEmail;
 
 	@URL
+	@NotBlank
 	private String				website;
 
 	@NotBlank

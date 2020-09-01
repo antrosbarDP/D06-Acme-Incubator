@@ -88,6 +88,13 @@ master.company.address = Calle, número, Ciudad, Estado, País
 master.company.phone = +000 123 456
 master.company.email = contact@acme.com
 
+# master.mic ##############################################################
+links.url = Los links deben consistir en urls separadas por comas
+deadline.future = La fecha límite debe ser al menos un mes desde la creación
+money.currency = El dinero debe expresarse en euros
+notice.confirm = La creación del aviso debe ser confirmada
+money.interval = El dinero maximo no puede sere mayor que el dinero mínimo
+
 # master.license ##############################################################
 
 master.license.title = Licencia

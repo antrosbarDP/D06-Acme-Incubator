@@ -8,7 +8,9 @@
 	<acme:form-textbox code="authenticated.notice.form.label.header" path="header" />
 	<acme:form-textbox code="authenticated.notice.form.label.deadline" path="deadline" />
 	<acme:form-textbox code="authenticated.notice.form.label.creationDate" path="creationDate" />
+	<acme:form-textarea code="authenticated.notice.form.label.body" path="body" />
 	<acme:form-textarea code="authenticated.notice.form.label.links" path="links" />
+	
 	
 	
 	

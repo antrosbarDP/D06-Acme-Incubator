@@ -315,25 +315,6 @@ RosadoBulletin
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>7</x>
-      <y>378</y>
-      <w>231</w>
-      <h>126</h>
-    </coordinates>
-    <panel_attributes>&lt;&lt;Entity&gt;&gt;
-Notice
---
-+creationDate: Date{Temporal(TIMESTAMP), Past}
-+deadline: Date{Temporal(TIMESTAMP), Past}
-+header: String {URL}
-+title: String {NotBlank}
-+links: List&lt;String&gt;
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
       <x>273</x>
       <y>378</y>
       <w>231</w>
@@ -386,12 +367,10 @@ Technology Records
 --
 +description: String
 +title: String {NotBlank}
-+sector: ActivitySector
++sector: String {NotBlank}
 +inventor: String {NotBlank}
 +contactEmail: String{Email}
 +website: String{URL}
-+minMoney: Money
-+maxMoney: Money
 +openSource: Boolean
 +stars: Integer {Optional, Range(-5,5)}
 </panel_attributes>
@@ -410,12 +389,10 @@ Tool Records
 --
 +description: String
 +title: String {NotBlank}
-+sector: ActivitySector
++sector: String {NotBlank}
 +inventor: String {NotBlank}
 +contactEmail: String{Email}
 +website: String{URL}
-+minMoney: Money
-+maxMoney: Money
 +openSource: Boolean
 +stars: Integer {Optional, Range(-5,5)}
 </panel_attributes>
@@ -442,6 +419,26 @@ Challenge
 +rookieReward: Money
 +averageReward: Money
 +expertReward: Money</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>21</x>
+      <y>392</y>
+      <w>231</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Notice
+--
++creationDate: Date{Temporal(TIMESTAMP), Past}
++deadline: Date{Temporal(TIMESTAMP), Past}
++header: String {URL}
++title: String {NotBlank}
++links: String
++links: String {NotBlank}
+</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>

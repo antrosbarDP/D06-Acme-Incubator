@@ -8,6 +8,7 @@
 	<acme:form-textbox code="anonymous.notice.form.label.header" path="header" />
 	<acme:form-textbox code="anonymous.notice.form.label.deadline" path="deadline" />
 	<acme:form-textbox code="anonymous.notice.form.label.creationDate" path="creationDate" />
+	<acme:form-textarea code="anonymous.notice.form.label.body" path="body" />
 	<acme:form-textarea code="anonymous.notice.form.label.links" path="links" />
 	
 	
