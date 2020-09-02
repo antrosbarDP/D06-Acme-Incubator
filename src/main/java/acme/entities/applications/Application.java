@@ -36,6 +36,11 @@ public class Application extends DomainEntity {
 	@NotBlank
 	private String				statement;
 
+	@NotBlank
+	private String				status;
+
+	private String				rejectReason;
+
 	@Temporal(TemporalType.TIMESTAMP)
 	@Past
 	private Date				creationDate;

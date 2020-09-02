@@ -8,3 +8,6 @@
 	<acme:list-column code="entrepreneur.investment-round.list.label.ticker" path="ticker" width="20%" />
 	<acme:list-column code="entrepreneur.investment-round.list.label.creationDate" path="creationDate" width="60%" />
 </acme:list>
+
+
+<a href="<jstl:url value="/entrepreneur/investment-round/create"/>"><h1 style="color:DodgerBlue;"><acme:message code="entrepreneur.investment-round.form.button.create"/></h1></a>

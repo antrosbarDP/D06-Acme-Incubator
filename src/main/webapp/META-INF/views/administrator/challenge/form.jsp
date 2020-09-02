@@ -26,7 +26,7 @@
 	<acme:form-submit test="${command == 'show' }" code="administrator.challenge.form.button.delete" 
 	action = "/administrator/challenge/delete"/>
 	<acme:form-submit test="${command == 'update' }" code="administrator.challenge.form.button.update" 
-	action = "/administrator/challenge/updatee"/>
+	action = "/administrator/challenge/update"/>
 	<acme:form-submit test="${command == 'delete' }" code="administrator.challenge.form.button.delete" 
 	action = "/administrator/challenge/delete"/>
 	<acme:form-return code="administrator.challenge.form.button.return"/>

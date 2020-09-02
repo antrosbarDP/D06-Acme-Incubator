@@ -8,9 +8,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import acme.entities.investmentRounds.InvestmentRound;
+import acme.entities.roles.Entrepreneur;
 import acme.framework.components.BasicCommand;
 import acme.framework.controllers.AbstractController;
-import acme.entities.roles.Entrepreneur;
 
 @Controller
 @RequestMapping("/entrepreneur/investment-round/")
@@ -19,10 +19,19 @@ public class EntrepreneurInvestmentRoundController extends AbstractController<En
 	// Internal state ---------------------------------------------------------
 
 	@Autowired
-	private EntrepreneurInvestmentRoundListService	listService;
+	private EntrepreneurInvestmentRoundListService		listService;
 
 	@Autowired
-	private EntrepreneurInvestmentRoundShowService	showService;
+	private EntrepreneurInvestmentRoundShowService		showService;
+
+	@Autowired
+	private EntrepreneurInvestmentRoundCreateService	createService;
+
+	@Autowired
+	private EntrepreneurInvestmentRoundUpdateService	updateService;
+
+	@Autowired
+	private EntrepreneurInvestmentRoundDeleteService	deleteService;
 
 
 	// Constructors -----------------------------------------------------------
@@ -31,6 +40,9 @@ public class EntrepreneurInvestmentRoundController extends AbstractController<En
 	private void initialise() {
 		super.addBasicCommand(BasicCommand.LIST, this.listService);
 		super.addBasicCommand(BasicCommand.SHOW, this.showService);
+		super.addBasicCommand(BasicCommand.CREATE, this.createService);
+		super.addBasicCommand(BasicCommand.UPDATE, this.updateService);
+		super.addBasicCommand(BasicCommand.DELETE, this.deleteService);
 	}
 
 }

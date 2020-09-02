@@ -8,9 +8,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import acme.entities.activities.Activity;
+import acme.entities.roles.Entrepreneur;
 import acme.framework.components.BasicCommand;
 import acme.framework.controllers.AbstractController;
-import acme.entities.roles.Entrepreneur;
 
 @Controller
 @RequestMapping("/entrepreneur/activity/")
@@ -19,10 +19,19 @@ public class EntrepreneurActivityController extends AbstractController<Entrepren
 	// Internal state ---------------------------------------------------------
 
 	@Autowired
-	private EntrepreneurActivityListService	listService;
+	private EntrepreneurActivityListService		listService;
 
 	@Autowired
-	private EntrepreneurActivityShowService	showService;
+	private EntrepreneurActivityShowService		showService;
+
+	@Autowired
+	private EntrepreneurActivityCreateService	createService;
+
+	@Autowired
+	private EntrepreneurActivityUpdateService	updateService;
+
+	@Autowired
+	private EntrepreneurActivityDeleteService	deleteService;
 
 
 	// Constructors -----------------------------------------------------------
@@ -31,6 +40,9 @@ public class EntrepreneurActivityController extends AbstractController<Entrepren
 	private void initialise() {
 		super.addBasicCommand(BasicCommand.LIST, this.listService);
 		super.addBasicCommand(BasicCommand.SHOW, this.showService);
+		super.addBasicCommand(BasicCommand.CREATE, this.createService);
+		super.addBasicCommand(BasicCommand.UPDATE, this.updateService);
+		super.addBasicCommand(BasicCommand.DELETE, this.deleteService);
 	}
 
 }

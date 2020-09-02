@@ -22,5 +22,15 @@
 	<jstl:param name = "roundId" value = "${id}"/>
 	</jstl:url>"><h1 style="color:DodgerBlue;"><acme:message code="entrepreneur.investment-round.form.workProgramme"/></h1></a>
 	
+	<acme:form-submit test="${command == 'create' }" code="entrepreneur.investment-round.form.button.create" 
+	action = "/entrepreneur/investment-round/create"/>
+	<acme:form-submit test="${command == 'show' }" code="entrepreneur.investment-round.form.button.update" 
+	action = "/entrepreneur/investment-round/update"/>
+	<acme:form-submit test="${command == 'show' }" code="entrepreneur.investment-round.form.button.delete" 
+	action = "/entrepreneur/investment-round/delete"/>
+	<acme:form-submit test="${command == 'update' }" code="entrepreneur.investment-round.form.button.update" 
+	action = "/entrepreneur/investment-round/update"/>
+	<acme:form-submit test="${command == 'delete' }" code="entrepreneur.investment-round.form.button.delete" 
+	action = "/entrepreneur/investment-round/delete"/>
 	<acme:form-return code="entrepreneur.investment-round.form.button.return"/>
 </acme:form>
