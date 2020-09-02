@@ -1,0 +1,33 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+
+authenticated.investment-round.list.label.creationDate = Fecha de Creación
+authenticated.investment-round.list.label.title = Titulo
+authenticated.investment-round.list.label.ticker = Ticker
+
+
+authenticated.investment-round.form.button.create = Crear
+authenticated.investment-round.form.button.return = Volver
+
+authenticated.investment-round.form.label.ticker = Ticker
+authenticated.investment-round.form.label.title = Título
+authenticated.investment-round.form.label.additionalInfo = Más información
+authenticated.investment-round.form.label.creationDate = Fecha de creación
+authenticated.investment-round.form.label.description = Descripción
+authenticated.investment-round.form.label.roundKind = Tipo de ronda
+authenticated.investment-round.form.label.kind.angel = ANGEL
+authenticated.investment-round.form.label.kind.seed = SEED
+authenticated.investment-round.form.label.kind.sa = SERIES-A
+authenticated.investment-round.form.label.kind.sb = SERIES-B
+authenticated.investment-round.form.label.kind.sc = SERIES-C
+authenticated.investment-round.form.label.kind.bridge = BRIDGE
+authenticated.investment-round.form.label.amount = Dinero total
+authenticated.investment-round.form.workProgramme = Programa de Trabajo

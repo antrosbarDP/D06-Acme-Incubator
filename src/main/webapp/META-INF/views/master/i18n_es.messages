@@ -39,6 +39,10 @@ master.menu.inquiry.list = Consultas
 master.menu.overture.list = Proposiciones
 master.menu.tool-record.list = Registros de Herramientas
 master.menu.technology-record.list = Registros de Tecnologías
+master.menu.application.list = Solicitudes
+master.menu.investment-round.list = Rondas de Inversión
+master.menu.entrepreneur = Emprendedor
+master.menu.investor = Inversor
 
 # master.menu.administrator ###################################################
 

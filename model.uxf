@@ -18,13 +18,13 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>539</x>
-      <y>203</y>
-      <w>70</w>
-      <h>77</h>
+      <x>448</x>
+      <y>105</y>
+      <w>84</w>
+      <h>112</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>80.0;10.0;10.0;90.0</additional_attributes>
+    <additional_attributes>100.0;140.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
@@ -74,13 +74,13 @@ bg=blue</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>588</x>
-      <y>203</y>
-      <w>70</w>
-      <h>77</h>
+      <x>371</x>
+      <y>189</y>
+      <w>161</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;80.0;90.0</additional_attributes>
+    <additional_attributes>210.0;20.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
@@ -179,8 +179,8 @@ bg=orange</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>441</x>
-      <y>266</y>
+      <x>350</x>
+      <y>112</y>
       <w>140</w>
       <h>63</h>
     </coordinates>
@@ -194,8 +194,8 @@ Provider
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>602</x>
-      <y>266</y>
+      <x>336</x>
+      <y>196</y>
       <w>147</w>
       <h>63</h>
     </coordinates>
@@ -315,8 +315,8 @@ RosadoBulletin
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>273</x>
-      <y>378</y>
+      <x>168</x>
+      <y>623</y>
       <w>231</w>
       <h>140</h>
     </coordinates>
@@ -336,8 +336,8 @@ Inquiry
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>525</x>
-      <y>378</y>
+      <x>518</x>
+      <y>847</y>
       <w>231</w>
       <h>126</h>
     </coordinates>
@@ -357,8 +357,8 @@ Overture
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>763</x>
-      <y>378</y>
+      <x>770</x>
+      <y>721</y>
       <w>231</w>
       <h>154</h>
     </coordinates>
@@ -379,8 +379,8 @@ Technology Records
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>728</x>
-      <y>553</y>
+      <x>511</x>
+      <y>994</y>
       <w>231</w>
       <h>154</h>
     </coordinates>
@@ -401,8 +401,8 @@ Tool Records
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>329</x>
-      <y>539</y>
+      <x>252</x>
+      <y>770</y>
       <w>231</w>
       <h>154</h>
     </coordinates>
@@ -424,8 +424,8 @@ Challenge
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>21</x>
-      <y>392</y>
+      <x>196</x>
+      <y>455</y>
       <w>231</w>
       <h>126</h>
     </coordinates>
@@ -440,5 +440,177 @@ Notice
 +links: String {NotBlank}
 </panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>413</x>
+      <y>308</y>
+      <w>210</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Role&gt;&gt;
+Entrepreuner
+--
++ startUpName: String {NotBlank}
++ activitySector: String {NotBlank}
++ qualificationsRecord: String {NotBlank}
++ skillsRecord: String {NotBlank}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>665</x>
+      <y>308</y>
+      <w>210</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Role&gt;&gt;
+Investor
+--
++ firmName: String {NotBlank}
++ activitySector: String {NotBlank}
++ profile: String {NotBlank}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>511</x>
+      <y>203</y>
+      <w>105</w>
+      <h>119</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>130.0;10.0;10.0;150.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>602</x>
+      <y>203</y>
+      <w>182</w>
+      <h>119</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;240.0;150.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>448</x>
+      <y>490</y>
+      <w>231</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Investment Round
+--
++creationDate: Date{Temporal(TIMESTAMP), Past}
++ticker: String {RegExp}
++description: String {NotBlank}
++title: String {NotBlank}
++additionalInfo: String{URL, Optional}
++amount: Money
++roundKind: String {ENUM}
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>798</x>
+      <y>490</y>
+      <w>231</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Application
+--
++creationDate: Date{Temporal(TIMESTAMP), Past}
++ticker: String {RegExp}
++statement: String {NotBlank}
++offer: Money
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>490</x>
+      <y>392</y>
+      <w>119</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-x
+m1=1
+m2=0...*
+publishedBy ^</panel_attributes>
+    <additional_attributes>10.0;10.0;100.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>672</x>
+      <y>553</y>
+      <w>140</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-x
+m1=1
+m2=0...*
+&lt; isFor </panel_attributes>
+    <additional_attributes>10.0;20.0;180.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>763</x>
+      <y>392</y>
+      <w>147</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-x
+m1=1
+m2=0...*
+createdBy ^</panel_attributes>
+    <additional_attributes>10.0;10.0;190.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>511</x>
+      <y>700</y>
+      <w>231</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Activity
+--
++startDate: Date{Temporal(TIMESTAMP)}
++endDate: Date{Temporal(TIMESTAMP)}
++title: String {NotBlank}
++budget: Money
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>539</x>
+      <y>609</y>
+      <w>112</w>
+      <h>105</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;
+m1=1
+m2=1...*
+isMadeOf v
+r1=workProgramme</panel_attributes>
+    <additional_attributes>10.0;10.0;120.0;130.0</additional_attributes>
   </element>
 </diagram>
